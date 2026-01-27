@@ -1,63 +1,57 @@
-# Computer Networks Study Plan (컴퓨터 네트워크 학습 계획)
+# 컴퓨터 네트워크 학습 계획
 
-> Goal: Understand how web communication works and diagnose network issues
 > 목표: 웹 통신의 동작 원리를 이해하고, 네트워크 문제를 진단할 수 있는 수준
 
 ---
 
-## AI Study Guide (AI 학습 가이드)
+## AI 학습 가이드
 
-### Role (역할)
-- AI is a **senior developer and professor** teaching this curriculum
+### 역할
 - AI는 이 커리큘럼으로 학습을 시켜주는 **시니어 개발자이자 교수**
 
-### Language Rule (언어 규칙)
-- **Default: Explain in English (기본: 영어로 설명)**
-- When user says "번역" or "translate" → Provide Korean translation
+### 학습 진행 흐름 (5단계)
 
-### Study Flow (학습 진행 흐름) - 5 Steps
+**1단계: 진행도 확인** - "오늘 어디 할 차례야"
+**2단계: 설명** - "학습 내용 보여줘" → 해당 챕터 .md 읽기
+**3단계: 예제** - "예제 보여줘" → examples/ 폴더 확인
+**4단계: 과제** - "과제 줘"
+**5단계: 평가** - [답안 제출] → 통과 = [x] 체크
 
-**Step 1: Check Progress** - "What's next?"
-**Step 2: Explanation** - "Explain this" → Read chapter .md
-**Step 3: Example** - "Show example" → Check examples/ folder
-**Step 4: Assignment** - "Give me an assignment"
-**Step 5: Evaluation** - [Submit answer] → Pass = [x] check
-
-### Evaluation Criteria (평가 기준)
-□ Did you understand and apply the concept? (학습한 개념을 이해하고 적용했는가)
+### 평가 기준
+□ 학습한 개념을 이해하고 적용했는가
 
 ---
 
-## STEP 1. Network Fundamentals (네트워크 기초)
+## STEP 1. 네트워크 기초
 
-### Chapter 01. Introduction to Networks (네트워크 개요)
+### Chapter 01. 네트워크 개요
 > **doc**: `chapters/chapter01/chapter01.md`
 > **examples**: `chapters/chapter01/examples/`
 
-- [ ] What is a Network (네트워크란 무엇인가)
-- [ ] Internet Architecture (인터넷 구조)
-- [ ] Protocol Concept (프로토콜 개념)
-- [ ] OSI 7-Layer Model (OSI 7계층 모델)
-- [ ] TCP/IP 4-Layer Model (TCP/IP 4계층 모델)
-- [ ] OSI vs TCP/IP Comparison (OSI vs TCP/IP 비교)
-- [ ] Encapsulation and Decapsulation (캡슐화와 역캡슐화)
+- [ ] 네트워크란 무엇인가
+- [ ] 인터넷 구조
+- [ ] 프로토콜 개념
+- [ ] OSI 7계층 모델
+- [ ] TCP/IP 4계층 모델
+- [ ] OSI vs TCP/IP 비교
+- [ ] 캡슐화와 역캡슐화
 
 ---
 
-## STEP 2. Application Layer (애플리케이션 계층)
+## STEP 2. 애플리케이션 계층
 
-### Chapter 02. Web and HTTP (웹과 HTTP)
+### Chapter 02. 웹과 HTTP
 > **doc**: `chapters/chapter02/chapter02.md`
 > **examples**: `chapters/chapter02/examples/`
 
-- [ ] Client-Server Model (클라이언트-서버 모델)
-- [ ] HTTP Concept and Characteristics (HTTP 개념과 특징)
-- [ ] HTTP Message Structure (HTTP 메시지 구조)
-- [ ] HTTP Methods: GET, POST, PUT, DELETE (HTTP 메서드)
-- [ ] Status Codes: 2xx, 3xx, 4xx, 5xx (상태 코드)
-- [ ] HTTP Headers (HTTP 헤더)
-- [ ] Cookies and Sessions (쿠키와 세션)
-- [ ] REST API Concept (REST API 개념)
+- [ ] 클라이언트-서버 모델
+- [ ] HTTP 개념과 특징
+- [ ] HTTP 메시지 구조
+- [ ] HTTP 메서드: GET, POST, PUT, DELETE
+- [ ] 상태 코드: 2xx, 3xx, 4xx, 5xx
+- [ ] HTTP 헤더
+- [ ] 쿠키와 세션
+- [ ] REST API 개념
 
 ---
 
@@ -65,35 +59,35 @@
 > **doc**: `chapters/chapter03/chapter03.md`
 > **examples**: `chapters/chapter03/examples/`
 
-- [ ] DNS Concept and Purpose (DNS 개념과 필요성)
-- [ ] Domain Hierarchy (도메인 계층 구조)
-- [ ] DNS Query Process (DNS 질의 과정)
-- [ ] DNS Record Types: A, AAAA, CNAME, MX (DNS 레코드 타입)
-- [ ] DNS Caching (DNS 캐싱)
-- [ ] hosts File (hosts 파일)
+- [ ] DNS 개념과 필요성
+- [ ] 도메인 계층 구조
+- [ ] DNS 질의 과정
+- [ ] DNS 레코드 타입: A, AAAA, CNAME, MX
+- [ ] DNS 캐싱
+- [ ] hosts 파일
 
 ---
 
-### Chapter 04. Other Application Protocols (기타 애플리케이션 프로토콜)
+### Chapter 04. 기타 애플리케이션 프로토콜
 > **doc**: `chapters/chapter04/chapter04.md`
 > **examples**: `chapters/chapter04/examples/`
 
 - [ ] FTP
-- [ ] SMTP, POP3, IMAP (Email)
+- [ ] SMTP, POP3, IMAP (이메일)
 - [ ] SSH
 
 ---
 
-## STEP 3. Transport Layer (전송 계층)
+## STEP 3. 전송 계층
 
-### Chapter 05. Transport Layer Overview (전송 계층 개요)
+### Chapter 05. 전송 계층 개요
 > **doc**: `chapters/chapter05/chapter05.md`
 > **examples**: `chapters/chapter05/examples/`
 
-- [ ] Transport Layer Role (전송 계층 역할)
-- [ ] Port Numbers (포트 번호)
-- [ ] Multiplexing and Demultiplexing (다중화와 역다중화)
-- [ ] Well-known Ports: 80, 443, 22 (잘 알려진 포트)
+- [ ] 전송 계층 역할
+- [ ] 포트 번호
+- [ ] 다중화와 역다중화
+- [ ] 잘 알려진 포트: 80, 443, 22
 
 ---
 
@@ -101,35 +95,35 @@
 > **doc**: `chapters/chapter06/chapter06.md`
 > **examples**: `chapters/chapter06/examples/`
 
-- [ ] UDP Characteristics (UDP 특징)
-- [ ] UDP Header Structure (UDP 헤더 구조)
-- [ ] UDP Use Cases (UDP 사용 사례)
-- [ ] UDP vs TCP: When to Choose (UDP vs TCP 선택 기준)
+- [ ] UDP 특징
+- [ ] UDP 헤더 구조
+- [ ] UDP 사용 사례
+- [ ] UDP vs TCP 선택 기준
 
 ---
 
-### Chapter 07. TCP Basics (TCP 기초)
+### Chapter 07. TCP 기초
 > **doc**: `chapters/chapter07/chapter07.md`
 > **examples**: `chapters/chapter07/examples/`
 
-- [ ] TCP Characteristics (TCP 특징)
-- [ ] TCP Header Structure (TCP 헤더 구조)
+- [ ] TCP 특징
+- [ ] TCP 헤더 구조
 - [ ] 3-way Handshake (연결 설정)
 - [ ] 4-way Handshake (연결 종료)
-- [ ] TCP State Transitions (TCP 상태 전이)
+- [ ] TCP 상태 전이
 
 ---
 
-### Chapter 08. TCP Reliability (TCP 신뢰성)
+### Chapter 08. TCP 신뢰성
 > **doc**: `chapters/chapter08/chapter08.md`
 > **examples**: `chapters/chapter08/examples/`
 
-- [ ] Sequence Numbers and ACK (시퀀스 번호와 ACK)
-- [ ] Retransmission (재전송)
-- [ ] Sliding Window (슬라이딩 윈도우)
-- [ ] Flow Control (흐름 제어)
-- [ ] Congestion Control Concept (혼잡 제어 개념)
-- [ ] Slow Start, AIMD (슬로우 스타트, AIMD)
+- [ ] 시퀀스 번호와 ACK
+- [ ] 재전송
+- [ ] 슬라이딩 윈도우
+- [ ] 흐름 제어
+- [ ] 혼잡 제어 개념
+- [ ] Slow Start, AIMD
 
 ---
 
